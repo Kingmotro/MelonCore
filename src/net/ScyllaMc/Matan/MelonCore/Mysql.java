@@ -107,7 +107,7 @@ public class Mysql {
 	public synchronized void openConnection() {
 		try {
 			Bukkit.broadcastMessage("OPENING SQL CONNECTION");
-			connection = DriverManager.getConnection("jdbc:mysql://95.85.7.36:3306/mysql", "minecraft", "7bc4e3a1-09d5-4318-bcbc-cf81b07b187d");
+			connection = DriverManager.getConnection("jdbc:mysql://ip/mysql", "minecraft", "pass");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
